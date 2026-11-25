@@ -1,0 +1,129 @@
+.auth-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0 12px;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 14px;
+}
+
+.shadow {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  color: #111111;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #27272a;
+  margin-bottom: 6px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1px solid #d4d4d8;
+  border-radius: 10px;
+  font-size: 0.94rem;
+  color: #111111;
+  background-color: #fafafa;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control::placeholder {
+  color: #71717a;
+}
+
+.form-control:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #b48a1e;
+  box-shadow: 0 0 0 3px rgba(180, 138, 30, 0.14);
+}
+
+.btn-dark {
+  background-color: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+  padding: 12px 20px;
+  width: 100%;
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background-color 0.22s ease, border-color 0.22s ease, transform 0.12s ease;
+}
+
+.btn-dark:hover {
+  background-color: #b48a1e;
+  border-color: #b48a1e;
+}
+
+.btn-dark:active {
+  transform: scale(0.99);
+}
+
+.text-danger {
+  font-size: 0.84rem;
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 2px 0 10px;
+}
+
+.text-success {
+  font-size: 0.84rem;
+  color: #15803d;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 2px 0 10px;
+}
+
+.register-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 14px;
+}
+
+@media (max-width: 768px) {
+  .register-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .card-body {
+    padding: 18px;
+  }
+}

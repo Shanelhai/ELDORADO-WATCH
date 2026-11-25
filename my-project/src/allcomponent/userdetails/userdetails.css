@@ -1,0 +1,247 @@
+.login-history-page {
+  padding: 112px 28px 84px;
+  background-color: #ffffff;
+  color: #111111;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ================= TOP HEADER ================= */
+.userdetails-top-banner {
+  max-width: 1220px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.userdetails-eyebrow {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #b48a1e;
+  margin-bottom: 10px;
+}
+
+.userdetails-page-title {
+  margin: 0 0 8px;
+  font-size: clamp(1.9rem, 3.8vw, 2.7rem);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0a0a0a;
+}
+
+.userdetails-page-subtitle {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: #52525b;
+}
+
+/* ================= HISTORY CARD ================= */
+.history-card {
+  max-width: 1220px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.history-header {
+  background-color: #111111;
+  color: #d4af37;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.history-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.history-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #d4af37;
+}
+
+.history-header h2 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #d4af37;
+}
+
+.history-count {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(212, 175, 55, 0.16);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+/* ================= TABLE ================= */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ffffff;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 820px;
+  background-color: #ffffff;
+}
+
+.history-table thead {
+  background-color: #fafafa;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+.history-table th {
+  padding: 13px 16px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  color: #52525b;
+  text-align: left;
+  border: none;
+  white-space: nowrap;
+}
+
+.history-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #ececef;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #27272a;
+  vertical-align: middle;
+}
+
+.history-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.history-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.row-index {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #b48a1e;
+}
+
+.user-name-cell {
+  font-weight: 700;
+  color: #0a0a0a;
+}
+
+.user-email-cell {
+  color: #3f3f46;
+}
+
+.device {
+  font-size: 0.82rem;
+  color: #52525b;
+  max-width: 240px;
+  word-break: break-word;
+}
+
+.ip-cell {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.82rem;
+  color: #27272a;
+  white-space: nowrap;
+}
+
+.time-cell {
+  font-size: 0.84rem;
+  color: #52525b;
+  white-space: nowrap;
+}
+
+.no-data {
+  color: #71717a;
+  text-align: center !important;
+  padding: 28px 16px !important;
+  font-weight: 600;
+}
+
+/* ================= ROLE BADGES ================= */
+.role-badge {
+  display: inline-block;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.role-badge.admin {
+  background-color: #fef9e7;
+  color: #9a7412;
+  border: 1px solid rgba(180, 138, 30, 0.4);
+}
+
+.role-badge.user {
+  background-color: #f4f4f5;
+  color: #27272a;
+  border: 1px solid #d4d4d8;
+}
+
+/* ================= LOADING & ERROR STATES ================= */
+.loading-text,
+.error-text {
+  text-align: center;
+  padding: 140px 20px;
+  font-size: 0.98rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  min-height: 60vh;
+}
+
+.loading-text {
+  color: #52525b;
+}
+
+.error-text {
+  color: #b91c1c;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .login-history-page {
+    padding: 96px 14px 64px;
+  }
+
+  .history-header {
+    padding: 14px 18px;
+  }
+
+  .history-table th,
+  .history-table td {
+    font-size: 0.82rem;
+    padding: 11px 12px;
+  }
+}

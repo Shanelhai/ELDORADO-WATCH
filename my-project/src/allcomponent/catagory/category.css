@@ -1,0 +1,344 @@
+.page-wrapper {
+  padding: 112px 28px 84px;
+  background-color: #ffffff;
+  color: #111111;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* ================= PAGE HEADER ================= */
+.category-top-banner {
+  max-width: 880px;
+  margin: 0 auto 36px;
+  text-align: center;
+}
+
+.category-eyebrow {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #b48a1e;
+  margin-bottom: 10px;
+}
+
+.category-page-title {
+  margin: 0 0 8px;
+  font-size: clamp(1.9rem, 3.6vw, 2.65rem);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #0a0a0a;
+}
+
+.category-page-subtitle {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  color: #52525b;
+}
+
+/* ================= FORM CARD ================= */
+.custom-card {
+  max-width: 600px;
+  margin: 0 auto 48px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+}
+
+.custom-card-header {
+  padding: 16px 24px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #111111;
+  color: #d4af37;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #d4af37;
+}
+
+.custom-card-body {
+  padding: 26px 24px 20px;
+  background-color: #ffffff;
+}
+
+.custom-card-footer {
+  padding: 16px 24px 22px;
+  background-color: #fafafa;
+  border-top: 1px solid #ececef;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #27272a;
+}
+
+.form-control {
+  height: 46px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  color: #111111;
+  background-color: #fafafa;
+  border-radius: 10px;
+  border: 1px solid #d4d4d8;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-control::placeholder {
+  color: #a1a1aa;
+}
+
+.form-control:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #b48a1e;
+  box-shadow: 0 0 0 3px rgba(180, 138, 30, 0.14);
+}
+
+.Cbtn-primary {
+  padding: 11px 28px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid #111111;
+  background-color: #111111;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.22s ease, border-color 0.22s ease, transform 0.12s ease;
+}
+
+.Cbtn-primary:hover {
+  background-color: #b48a1e;
+  border-color: #b48a1e;
+}
+
+.Cbtn-primary:active {
+  transform: scale(0.98);
+}
+
+.Cbtn-secondary {
+  padding: 11px 22px;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: 1px solid #d4d4d8;
+  background-color: #ffffff;
+  color: #27272a;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.Cbtn-secondary:hover {
+  border-color: #111111;
+  color: #111111;
+}
+
+.text-danger {
+  color: #b91c1c;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.84rem;
+  margin: 4px 0 0;
+}
+
+/* ================= CATEGORIES TABLE ================= */
+.table-wrapper {
+  max-width: 880px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 18px;
+  padding: 22px 24px 26px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.03);
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+.table-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ececef;
+}
+
+.table-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.table-count {
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #b48a1e;
+  background-color: #fef9e7;
+  border: 1px solid rgba(180, 138, 30, 0.3);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.customs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.customs-table thead {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.customs-table th {
+  padding: 13px 16px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #d4af37;
+  border: none;
+}
+
+.customs-table th:last-child {
+  text-align: right;
+}
+
+.customs-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #ececef;
+  color: #111111;
+  font-size: 0.95rem;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.customs-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.customs-table tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.cat-index {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  color: #b48a1e;
+}
+
+.cat-name {
+  font-weight: 600;
+  color: #0a0a0a;
+}
+
+.cat-actions-cell {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.cat-btn-edit,
+.cat-btn-delete {
+  padding: 7px 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.cat-btn-edit {
+  background-color: #ffffff;
+  color: #111111;
+  border: 1px solid #d4d4d8;
+  margin-right: 8px;
+}
+
+.cat-btn-edit:hover {
+  border-color: #b48a1e;
+  color: #b48a1e;
+}
+
+.cat-btn-delete {
+  background-color: #ffffff;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+.cat-btn-delete:hover {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+  color: #ffffff;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 640px) {
+  .page-wrapper {
+    padding: 96px 14px 64px;
+  }
+
+  .custom-card {
+    margin-bottom: 32px;
+  }
+
+  .custom-card-body,
+  .custom-card-footer,
+  .table-wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .customs-table th,
+  .customs-table td {
+    padding: 11px 10px;
+    font-size: 0.85rem;
+  }
+
+  .cat-btn-edit,
+  .cat-btn-delete {
+    padding: 6px 10px;
+    font-size: 0.72rem;
+  }
+}
