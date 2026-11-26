@@ -4,7 +4,7 @@ import three from '../assets/home/three.jpg';
 import four from '../assets/home/four.jpg';
 import five from '../assets/home/five.avif';
 import six from '../assets/home/six.jpg';
-import seven from '../assets/home/Seven.jpg';
+import seven from '../assets/home/seven.jpg';
 import eight from '../assets/home/eight.jpg';
 import nine from '../assets/home/nine.jpg';
 import ten from '../assets/home/ten.jpg';
