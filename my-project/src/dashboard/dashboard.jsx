@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Login from "./Login";
-import Register from "./Register";
-import api from "../API/API";
+import Login from "./login";
+import Register from "./register";
+import api from "../api/api";
 import "./dashboard.css";
-import Footer from "../Allcomponent/Footer/Footer";
-import URISE from "../Allcomponent/Assets/About/aura_watch.jpg";
+import Footer from "../allcomponent/footer/footer";
+import URISE from "../allcomponent/assets/about/aura_watch.jpg";
 
 const Dashboard = () => {
   const [activeForm, setActiveForm] = useState("login");
