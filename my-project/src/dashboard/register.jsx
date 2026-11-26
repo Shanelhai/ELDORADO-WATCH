@@ -37,7 +37,7 @@ const Register = ({ formKey, onRegister }) => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/auth/register",
+        "https://eldorado-watch.onrender.com/api/auth/register",
         formData
       );
 

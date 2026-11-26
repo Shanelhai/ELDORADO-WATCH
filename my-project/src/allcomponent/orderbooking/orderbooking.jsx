@@ -114,7 +114,7 @@ const OrderBooking = () => {
             {cart.items.map((item) => (
               <div className="order-item" key={item.productId._id}>
                 <img
-                  src={`http://localhost:5001/uploadPro/${item.productId.image[0]}`}
+                  src={`https://eldorado-watch.onrender.com/uploadPro/${item.productId.image[0]}`}
                   alt={item.productId.title}
                   onError={(e) => (e.target.src = "/no-image.png")}
                 />

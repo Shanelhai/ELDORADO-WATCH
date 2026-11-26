@@ -28,8 +28,8 @@ const Product = () => {
 
   const [formError, setFormError] = useState({});
 
-  const WATCH_API = "http://localhost:5001/api/watches";
-  const CATEGORY_API = "http://localhost:5001/api/categories";
+  const WATCH_API = "https://eldorado-watch.onrender.com/api/watches";
+  const CATEGORY_API = "https://eldorado-watch.onrender.com/api/categories";
 
   const getWatches = async () => {
     try {
@@ -167,7 +167,7 @@ const Product = () => {
       <tr key={w._id}>
         <td>
           <img
-            src={`http://localhost:5001/uploadPro/${w.image[0]}`}
+            src={`https://eldorado-watch.onrender.com/uploadPro/${w.image[0]}`}
             alt={w.title || "Watch"}
             onError={(e) => (e.target.src = "/no-image.png")}
           />

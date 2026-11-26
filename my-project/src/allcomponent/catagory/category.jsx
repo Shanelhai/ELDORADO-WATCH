@@ -10,7 +10,7 @@ const Category = () => {
   const [form, setForm] = useState({ name: "" });
   const [formError, setFormError] = useState({ name: "" });
 
-  const API_URL = "http://localhost:5001/api/categories";
+  const API_URL = "https://eldorado-watch.onrender.com/api/categories";
 
   const getCategories = async () => {
     try {

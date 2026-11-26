@@ -11,7 +11,7 @@ const AllOrders = () => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await axios.get("http://localhost:5001/api/orders", {
+        const response = await axios.get("https://eldorado-watch.onrender.com/api/orders", {
           withCredentials: true,
         });
         setOrders(response.data.orders || []);

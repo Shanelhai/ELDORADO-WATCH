@@ -16,7 +16,7 @@ const Shoopingcart = () => {
     }
 
     try {
-      const res = await axios.get("http://localhost:5001/api/cart", {
+      const res = await axios.get("https://eldorado-watch.onrender.com/api/cart", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setCart(res.data.cart);
@@ -36,7 +36,7 @@ const Shoopingcart = () => {
     if (quantity < 1) return;
     try {
       await axios.put(
-        "http://localhost:5001/api/cart/update",
+        "https://eldorado-watch.onrender.com/api/cart/update",
         { productId, quantity },
         { headers: { Authorization: `Bearer ${token}` } }
       );
@@ -48,7 +48,7 @@ const Shoopingcart = () => {
 
   const removeItem = async (productId) => {
     try {
-      await axios.delete(`http://localhost:5001/api/cart/remove/${productId}`, {
+      await axios.delete(`https://eldorado-watch.onrender.com/api/cart/remove/${productId}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       getCart();
@@ -105,7 +105,7 @@ const Shoopingcart = () => {
               <div className="cart-item" key={item.productId._id}>
                 <div className="cart-img">
                   <img
-                    src={`http://localhost:5001/uploadPro/${item.productId.image[0]}`}
+                    src={`https://eldorado-watch.onrender.com/uploadPro/${item.productId.image[0]}`}
                     alt={item.productId.title}
                     onError={(e) => (e.target.src = "/no-image.png")}
                   />

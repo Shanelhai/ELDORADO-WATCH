@@ -16,7 +16,7 @@ const WatchDetails = () => {
 
   const getWatchDetails = async () => {
     try {
-      const res = await axios.get(`http://localhost:5001/api/watches/${id}`);
+      const res = await axios.get(`https://eldorado-watch.onrender.com/api/watches/${id}`);
 
       if (res.data?.success) {
         setWatch(res.data.watch);
@@ -63,7 +63,7 @@ const WatchDetails = () => {
               }}
             >
               <img
-                src={`http://localhost:5001/uploadPro/${selectedImage}`}
+                src={`https://eldorado-watch.onrender.com/uploadPro/${selectedImage}`}
                 alt={watch.title}
                 className="zoom-image"
                 style={{
@@ -95,7 +95,7 @@ const WatchDetails = () => {
               {watch.image?.map((img, i) => (
                 <img
                   key={i}
-                  src={`http://localhost:5001/uploadPro/${img}`}
+                  src={`https://eldorado-watch.onrender.com/uploadPro/${img}`}
                   alt="thumb"
                   onClick={() => {
                     setSelectedImage(img);
