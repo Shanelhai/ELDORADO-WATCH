@@ -19,10 +19,12 @@ const Navbar = () => {
       setId(localStorage.getItem("userId"));
     };
 
+    window.addEventListener("storage", updateUser);
     window.addEventListener("storageChange", updateUser);
     updateUser();
 
     return () => {
+      window.removeEventListener("storage", updateUser);
       window.removeEventListener("storageChange", updateUser);
     };
   }, [location]);
