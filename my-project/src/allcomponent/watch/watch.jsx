@@ -10,7 +10,7 @@ const Watch = () => {
 
     const getWatches = async () => {
         try {
-            const res = await axios.get("http://localhost:5001/api/watches");
+            const res = await axios.get("https://eldorado-watch.onrender.com/api/watches");
             if (res.data.success) setWatches(res.data.watches);
         } catch (err) {
             console.error(err);
@@ -33,7 +33,7 @@ const Watch = () => {
 
         try {
             const res = await axios.post(
-                "http://localhost:5001/api/cart/add",
+                "https://eldorado-watch.onrender.com/api/cart/add",
                 {
                     productId: productId,   
                     quantity: 1
@@ -65,7 +65,7 @@ const Watch = () => {
                 {watches.map((watch) => (
                     <div className="watch-cards" key={watch._id}>
                         <img
-                            src={`http://localhost:5001/uploadPro/${watch.image[0]}`}
+                            src={`https://eldorado-watch.onrender.com/uploadPro/${watch.image[0]}`}
                             alt={watch.title}
                             onError={(e) => (e.target.src = "/no-image.png")}
                         />
