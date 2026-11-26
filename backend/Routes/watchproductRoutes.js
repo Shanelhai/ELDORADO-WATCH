@@ -23,7 +23,7 @@ const storage = multer.diskStorage({
   },
 });
 
-const uploadPro = multer({ storage });
+const uploadpro = multer({ storage });
 
 router.get("/", getAllWatches);
 router.get("/:id", getWatchById);
