@@ -1,0 +1,620 @@
+[{
+  "_id": {
+    "$oid": "6af54a72e806703674f7e668"
+  },
+  "title": "Sonata Classic Rectangular Dial Watch",
+  "brand": "Sonata",
+  "model": "SDA 625",
+  "color": "Gold & Brown",
+  "strap": "Brown Leather",
+  "dial": "White Rectangular",
+  "description": "Rectangular gold-toned case, minimalist white dial, brown leather strap.",
+  "price": 1499,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547e19a876841e93141e0"
+  },
+  "image": [
+    "1794460274060-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:11:14.079Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:11:14.079Z"
+  },
+  "totalprice": 1349.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54b26e806703674f7e669"
+  },
+  "title": "Titan Golden Heart Skeleton Automatic",
+  "brand": "Titan",
+  "model": "Phoenix / Skeletal",
+  "color": "Gold",
+  "strap": "Gold Stainless Steel",
+  "dial": "Gold Open-Work (Skeleton)",
+  "description": "Open-worked skeleton dial showing internal automatic movement, full gold-plated stainless steel case and bracelet.",
+  "price": 21995,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547d29a876841e93141df"
+  },
+  "image": [
+    "1794460454839-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:14:14.843Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:14:14.843Z"
+  },
+  "totalprice": 19795.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54bd3e806703674f7e66a"
+  },
+  "title": "Tissot Chrono XL Two-Tone Watch",
+  "brand": "Tissot",
+  "model": "Chrono XL",
+  "color": "Two-Tone (Gold & Silver)",
+  "strap": "Two-Tone Steel",
+  "dial": "Blue Sunburst",
+  "description": "Two-tone (silver and gold) stainless steel strap, dark blue chronograph dial with date display.",
+  "price": 52500,
+  "discount": 0,
+  "category": {
+    "$oid": "6af547d29a876841e93141df"
+  },
+  "image": [
+    "1794460627084-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:17:07.092Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:17:07.092Z"
+  },
+  "totalprice": 52500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54c60e806703674f7e66b"
+  },
+  "title": "Seiko Astron GPS Solar Chronograph",
+  "brand": "Seiko",
+  "model": "GPS Solar Chrono",
+  "color": "Black & Orange",
+  "strap": "Black Rubber",
+  "dial": "Textured Black",
+  "description": "GPS solar-powered, dual time zone display, world time bezel with rubber strap.",
+  "price": 145000,
+  "discount": 20,
+  "category": {
+    "$oid": "6af547d29a876841e93141df"
+  },
+  "image": [
+    "1794460768305-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:19:28.309Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:19:28.309Z"
+  },
+  "totalprice": 116000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54d00e806703674f7e66c"
+  },
+  "title": "Rado Jubilee Gold/Black Ceramic Watch",
+  "brand": "Rado",
+  "model": "Jubilee Gold/Black",
+  "color": "Gold & Black",
+  "strap": "Black Ceramic & Gold",
+  "dial": "Black Diamond-Set",
+  "description": "Two-tone black ceramic and gold-plated bracelet, diamond marker dial with date window.",
+  "price": 85000,
+  "discount": 15,
+  "category": {
+    "$oid": "6af547d29a876841e93141df"
+  },
+  "image": [
+    "1794460928591-images.jpg"
+  ],
+  "stock": 6,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:22:08.595Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:22:08.595Z"
+  },
+  "totalprice": 72250,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54dd4e806703674f7e66d"
+  },
+  "title": "Moto 360 Smartwatch",
+  "brand": "Motorola",
+  "model": "Smartwatch Gen 3",
+  "color": "Rose Gold",
+  "strap": "Rose Gold Steel",
+  "dial": "Digital AMOLED",
+  "description": "Round digital display with rose gold metal bracelet casing.",
+  "price": 14999,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5480b9a876841e93141e2"
+  },
+  "image": [
+    "1794461140729-images.jpg"
+  ],
+  "stock": 8,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:25:40.732Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:25:40.732Z"
+  },
+  "totalprice": 13499.1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54e58e806703674f7e66e"
+  },
+  "title": "Ghori Classic Sunburst Automatic",
+  "brand": "Ghori",
+  "model": "Classic Sunburst",
+  "color": "Brown & Gunmetal",
+  "strap": "Brown Leather",
+  "dial": "Dark Sunburst",
+  "description": "Sunburst textured dial with date window, brown crocodile-embossed leather strap.",
+  "price": 4500,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794461272657-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:27:52.660Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:27:52.660Z"
+  },
+  "totalprice": 4050,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54f01e806703674f7e66f"
+  },
+  "title": "Patek Philippe Grand Complications Perpetual Calendar",
+  "brand": "Patek Philippe",
+  "model": "5270P / Perpetual",
+  "color": "Blue & Steel",
+  "strap": "Blue Textile / Leather",
+  "dial": "Blue Opaline",
+  "description": "Blue sunburst dial, perpetual calendar, chronograph sub-dials, moon phase indicator.",
+  "price": 20000,
+  "discount": 20,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794461441679-images.jpg"
+  ],
+  "stock": 4,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:30:41.682Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:31:07.814Z"
+  },
+  "totalprice": 16000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af54fd6e806703674f7e670"
+  },
+  "title": "IWC Portofino Automatic",
+  "brand": "IWC Schaffhausen",
+  "model": "Portofino IW356501",
+  "color": "Silver & Black",
+  "strap": "Black Alligator Leather",
+  "dial": "White Silver-Plated",
+  "description": "Swiss automatic movement, silver-plated dial with Roman numeral index and black alligator leather strap.   ",
+  "price": 430000,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794461654491-images.jpg"
+  ],
+  "stock": 4,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:34:14.493Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:34:14.493Z"
+  },
+  "totalprice": 387000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af55075e806703674f7e671"
+  },
+  "title": "Fossil Machine Monochromatic Chronograph",
+  "brand": "Fossil",
+  "model": "FS Series / Machine",
+  "color": "Black",
+  "strap": "Black Steel",
+  "dial": "Black",
+  "description": "All-black stainless steel casing and bracelet, sleek sub-dials.",
+  "price": 13945,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5477b9a876841e93141de"
+  },
+  "image": [
+    "1794461813063-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:36:53.066Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:36:53.066Z"
+  },
+  "totalprice": 12550.5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af5510be806703674f7e672"
+  },
+  "title": "Olevs Automatic Calendar Moon Phase",
+  "brand": "Olevs",
+  "model": "Calendar Moonphase",
+  "color": "Black & Silver",
+  "strap": "Black Stainless Steel",
+  "dial": "Black Multi-Subdial",
+  "description": "Automatic movement, full calendar sub-dials, day/night moon phase indicator, black stainless steel strap.",
+  "price": 5500,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5477b9a876841e93141de"
+  },
+  "image": [
+    "1794461963383-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:39:23.387Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:39:23.387Z"
+  },
+  "totalprice": 4950,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af551b0e806703674f7e673"
+  },
+  "title": "Guess Gunmetal Chronograph Watch",
+  "brand": "Guess",
+  "model": "Blue Accent Chrono",
+  "color": "Gunmetal & Blue",
+  "strap": "Gunmetal Steel",
+  "dial": "Blue/Black Textured",
+  "description": "Dark gunmetal stainless steel strap, textured dial with blue Roman numerals.",
+  "price": 12500,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5477b9a876841e93141de"
+  },
+  "image": [
+    "1794462128964-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:42:08.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:42:08.967Z"
+  },
+  "totalprice": 11250,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af55244e806703674f7e674"
+  },
+  "title": "Lacoste L.12.12 Silicone Watch",
+  "brand": "Lacoste",
+  "model": "2010984",
+  "color": "Black & Gold",
+  "strap": "Black Silicone",
+  "dial": "Black",
+  "description": "Matte black resin/silicone case and strap with iconic Lacoste crocodile logo.",
+  "price": 7950,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5477b9a876841e93141de"
+  },
+  "image": [
+    "1794462276118-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:44:36.120Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:44:36.120Z"
+  },
+  "totalprice": 7155,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af552c2e806703674f7e675"
+  },
+  "title": "Geneva Minimalist Mesh Watch",
+  "brand": "Geneva",
+  "model": "Mesh Dress",
+  "color": "Rose Gold & Black",
+  "strap": "Black Mesh",
+  "dial": "Black / Gold Markers",
+  "description": "Rose gold rimmed case with dark dial, sleek mesh bracelet.",
+  "price": 1200,
+  "discount": 10,
+  "category": {
+    "$oid": "6af5477b9a876841e93141de"
+  },
+  "image": [
+    "1794462402647-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 4.5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:46:42.650Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:46:42.650Z"
+  },
+  "totalprice": 1080,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af553d1e806703674f7e676"
+  },
+  "title": "Jaguar Hybrid Diver Chronograph",
+  "brand": "Jaguar",
+  "model": "Diver Chronograph",
+  "color": "blue and gold",
+  "strap": "Gold Stainless Steel",
+  "dial": "Green Sunburst",
+  "description": "Gold-plated stainless steel strap, green dial with rotating bezel and 20 bar water resistance.",
+  "price": 45000,
+  "discount": 5,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794462673212-images.jpg"
+  ],
+  "stock": 4,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:51:13.215Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:51:13.215Z"
+  },
+  "totalprice": 42750,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af55467e806703674f7e677"
+  },
+  "title": "Cartier Calibre de Cartier Automatic",
+  "brand": "Cartier",
+  "model": "Calibre de Cartier",
+  "color": "Silver & Black",
+  "strap": "Leather / Steel",
+  "dial": "Black Roman",
+  "description": "Premium Swiss automatic movement, leather strap, Roman numeral markers with sub-seconds dial.",
+  "price": 7900,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547d29a876841e93141df"
+  },
+  "image": [
+    "1794462823817-images.jpg"
+  ],
+  "stock": 8,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:53:43.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:53:43.820Z"
+  },
+  "totalprice": 7110,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af554d2e806703674f7e678"
+  },
+  "title": "Biden Men's Chronograph Two-Tone Watch",
+  "brand": "Biden",
+  "model": "3-Subdial Chronograph",
+  "color": "Two-Tone (Gold & Silver)",
+  "strap": "Stainless Steel",
+  "dial": "Black Roman",
+  "description": "Stainless steel two-tone (gold/silver) strap, Roman numeral dial with sub-dials.",
+  "price": 10000,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794462930653-images.jpg"
+  ],
+  "stock": 8,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:55:30.657Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:55:30.657Z"
+  },
+  "totalprice": 9000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af55549e806703674f7e679"
+  },
+  "title": "Curren Chronograph Watch",
+  "brand": "Curren",
+  "model": "8329",
+  "color": "Rose Gold & Brown",
+  "strap": "Brown Leather",
+  "dial": "Brown Textured",
+  "description": "Rose gold alloy case, dark brown textured dial, leather strap with sub-dials.",
+  "price": 20000,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794463049904-images.jpg"
+  ],
+  "stock": 10,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:57:29.908Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:57:29.908Z"
+  },
+  "totalprice": 18000,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af555a8e806703674f7e67a"
+  },
+  "title": "Fastrack Casual Tan Leather Watch",
+  "brand": "Fastrack",
+  "model": "Minimalist Field",
+  "color": "Silver & Tan",
+  "strap": "Tan Leather",
+  "dial": "Black Minimalist",
+  "description": "Clean minimalist dark dial, durable tan leather strap.",
+  "price": 25000,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794463144918-images.jpg"
+  ],
+  "stock": 4,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T05:59:04.921Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T05:59:04.921Z"
+  },
+  "totalprice": 22500,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6af55625e806703674f7e67b"
+  },
+  "title": "Rolex Oyster Perpetual Milgauss (Custom PVD)",
+  "brand": "Rolex",
+  "model": "Oyster Perpetual",
+  "color": "Matte Black & Gold",
+  "strap": "Black PVD Steel",
+  "dial": "Black / Gold Markers",
+  "description": "Matte black PVD-coated stainless steel, yellow/gold index hour markers.",
+  "price": 1200000,
+  "discount": 10,
+  "category": {
+    "$oid": "6af547f79a876841e93141e1"
+  },
+  "image": [
+    "1794463269779-images.jpg"
+  ],
+  "stock": 8,
+  "rating": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-11-12T06:01:09.782Z"
+  },
+  "updatedAt": {
+    "$date": "2026-11-12T06:01:09.782Z"
+  },
+  "totalprice": 1080000,
+  "__v": 0
+}]

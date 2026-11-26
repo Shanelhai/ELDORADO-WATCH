@@ -39,7 +39,7 @@ app.get("/api/test", (req, res) => {
 
 
 // Serve static files
-app.use("/uploadPro", express.static("uploadPro"));
+app.use("/uploadpro", express.static("uploadpro"));
 
 
 mongoose.connect(process.env.DB_URL)

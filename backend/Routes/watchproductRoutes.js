@@ -15,7 +15,7 @@ const router = express.Router();
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "uploadPro/");
+    cb(null, "uploadpro/");
   },
   filename: function (req, file, cb) {
     const ext = path.extname(file.originalname);
@@ -27,8 +27,8 @@ const uploadPro = multer({ storage });
 
 router.get("/", getAllWatches);
 router.get("/:id", getWatchById);
-router.post("/",   protect, admin, uploadPro.array("images", 5), createWatch);
-router.put("/:id",  protect, admin, uploadPro.array("images", 5), updateWatch);
+router.post("/",   protect, admin, uploadpro.array("images", 5), createWatch);
+router.put("/:id",  protect, admin, uploadpro.array("images", 5), updateWatch);
 router.delete("/:id",  protect, admin, deleteWatch);
 
 export default router;

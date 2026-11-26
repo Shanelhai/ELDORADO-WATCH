@@ -6,7 +6,7 @@ const deleteImages = (filenames) => {
   if (!Array.isArray(filenames)) return;
 
   filenames.forEach((filename) => {
-    const filePath = path.join(process.cwd(), "uploadPro", filename);
+    const filePath = path.join(process.cwd(), "uploadpro", filename);
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath);
     }

@@ -10,7 +10,7 @@ const Watch = () => {
 
     const getWatches = async () => {
         try {
-            const res = await axios.get("https://eldorado-watch.onrender.com/api/watches");
+            const res = await axios.get(" https://eldorado-watch.onrender.com/api/watches");
             if (res.data.success) setWatches(res.data.watches);
         } catch (err) {
             console.error(err);
@@ -33,7 +33,7 @@ const Watch = () => {
 
         try {
             const res = await axios.post(
-                "https://eldorado-watch.onrender.com/api/cart/add",
+                " https://eldorado-watch.onrender.com/api/cart/add",
                 {
                     productId: productId,   
                     quantity: 1
